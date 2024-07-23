@@ -8,9 +8,7 @@ public class ClassPen {
 
     void Write() {
         System.out.println("Write Something");
-
     }
-
     public static void main(String[] args) {
         ClassPen p1 = new ClassPen();
         p1.color = "Black";

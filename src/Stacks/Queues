@@ -1,0 +1,26 @@
+/ write a program for queues
+
+
+
+import java.util.LinkedList;
+import java.util.Queue;
+public class Ex1{
+
+    public static void main(String[] args) {
+        Queue<Integer> qu = new LinkedList<>();
+        qu.add(10);
+        qu.add(20);
+        qu.add(30);
+        qu.add(40);
+        qu.add(50);
+        qu.add(60);
+        qu.add(1000);
+
+        qu.remove();// to delete top element
+        System.out.println(qu.peek());//to check first element
+        System.out.println(qu.isEmpty());//to check weather queue is empty or not
+        System.out.println(qu.poll());// to delete element but will not trow error if queue is empty
+        System.out.println(qu);//to print queue
+
+    }
+}

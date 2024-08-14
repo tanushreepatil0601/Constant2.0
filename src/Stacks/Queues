@@ -1,6 +1,4 @@
-/ write a program for queues
-
-
+// write a program for queues
 
 import java.util.LinkedList;
 import java.util.Queue;

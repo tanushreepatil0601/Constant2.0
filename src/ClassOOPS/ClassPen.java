@@ -1,5 +1,4 @@
 package ClassOOPS;
-
 public class ClassPen {
 
     String color;
